@@ -1,19 +1,15 @@
-##INSTALL
+## INSTALL
 
-- Run `npm install `
-- Create env.js in project root add the following and save:
-```javascript
-module.exports = {
-    environment: 'development',
-    port: 3000,
-    mongodbUser: <USER>,
-    mongodbPass: <PASSWORD>
-}
-```
-- Repleace `<USER>` and `<PASSWORD>` with the credentials provided to you.
-- Run `nodemon server.js`. You should see some output telling you the app is ready to accept connections.
+- Clone the repo with `git clone https://github.com/dizyae/scrode.git`
+- `cd scrode`
+- Run `$ npm install `
+- Create env.js in project root with `$ cp env.js.example env.js`
+- Open env.js and repleace `<USER>` and `<PASSWORD>` with the credentials provided to you.
+- Run `$ nodemon server.js`. You should see some output telling you the app is ready to accept connections.
 
-##JSON REST API REFERENCE
+
+
+## JSON REST API REFERENCE
 
 POST /scrape returns scraped content from a page.
 
